@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<List xmlns:ows="Microsoft SharePoint" Title="Kolektor Quick Poll" Direction="$Resources:Direction;" Url="Lists/QuickPoll" BaseType="4">
+<List xmlns:ows="Microsoft SharePoint" Title="Quick Poll" Direction="$Resources:Direction;" Url="Lists/QuickPoll" BaseType="4">
   <MetaData>
     <Fields>
       <Field ID="{94f89715-e097-4e8b-ba79-ea02aa8b7adb}" Name="FileRef" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" Type="Lookup" DisplayName="$Resources:core,URL_Path;" List="Docs" FieldRef="ID" ShowField="FullUrl" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileRef">
